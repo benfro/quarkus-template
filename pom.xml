@@ -5,7 +5,7 @@
   <groupId>net.benfro.lab</groupId>
   <artifactId>quarkus-template</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>quarkus-template</name>
   <url>http://maven.apache.org</url>
@@ -13,6 +13,7 @@
   <modules>
     <module>quarkus-template-backend-api</module>
     <module>quarkus-template-backend-persistence</module>
+    <module>quarkus-template-backend-app</module>
   </modules>
 
   <properties>
